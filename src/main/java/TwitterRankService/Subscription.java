@@ -25,10 +25,10 @@ public class Subscription {
     }
     @JsonIgnore
     public void trackInterest(String interest) throws InterruptedException {
-        String consumerKey = "duIhPwW3F2kaz9mXzwNxxN2KJ",
-                consumerSecret = "xfhtaUodglWyvieAMj0aGphwC1F7CxbTkMnrbADBkDqOEAg2Sh",
-                token = "65652415-3uklQGPIH9xlatWVs1O30mxoY6KQxnfG6qUx5V65u",
-                secret = "WFfyM004fhimxEFJNkg82v0FT0IpxHjxAa08qV0oZVU6v";
+        String consumerKey = " ",
+                consumerSecret = " ",
+                token = "-",
+                secret = " ";
         Runnable r = () -> {
             try {
                 new TwitterProducer().run(consumerKey, consumerSecret, token, secret, interest);
